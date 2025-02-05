@@ -1,0 +1,7 @@
+#root{
+  height: 100vh;
+  background-color: #EEE;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
