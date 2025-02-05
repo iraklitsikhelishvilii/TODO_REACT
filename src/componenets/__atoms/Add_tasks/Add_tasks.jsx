@@ -1,6 +1,6 @@
 import React from "react";
 
-function input({ value, setValue }) {
+function Add_tasks({ value, setValue }) {
   return (
     <>
       {" "}
@@ -14,4 +14,4 @@ function input({ value, setValue }) {
   );
 }
 
-export default input;
+export default Add_tasks;

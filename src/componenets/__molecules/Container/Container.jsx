@@ -63,7 +63,7 @@ function Container() {
       <div className="input_main_box">
         <div>
           <img src={tick_img} alt="" />
-          <Add_tasks />
+          <Add_tasks value={value} setValue={setValue} />
         </div>
         <Button createTask={createTask} plus_img={plus_img} />
       </div>
