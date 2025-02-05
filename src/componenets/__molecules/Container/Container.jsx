@@ -5,8 +5,8 @@ import trash_img from "../../../assets/images/akar-icons_trash-can.svg";
 import check_img from "../../../assets/images/check.png";
 import List_box from "../list_box/List_box";
 import Top_box from "../../__atoms/top_box/Top_box";
-import Input from "../../__atoms/input/input";
 import Button from "../../__atoms/button/Button";
+import Add_tasks from "../../__atoms/Add_tasks/Add_tasks";
 function Container() {
   const [task, setTask] = useState(() => {
     const savedTasks = localStorage.getItem("tasks");
@@ -63,7 +63,7 @@ function Container() {
       <div className="input_main_box">
         <div>
           <img src={tick_img} alt="" />
-          <Input value={value} setValue={setValue} />
+          <Add_tasks />
         </div>
         <Button createTask={createTask} plus_img={plus_img} />
       </div>
